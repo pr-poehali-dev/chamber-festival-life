@@ -103,9 +103,13 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <section className="relative min-h-screen flex items-center justify-center px-4 py-20 overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-20 left-10 w-64 h-64 bg-accent rounded-full blur-3xl"></div>
-          <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent rounded-full blur-3xl"></div>
+        <div className="absolute inset-0">
+          <img 
+            src="https://cdn.poehali.dev/projects/b1f1dafe-0f45-4cab-af44-c599e2a5e2f9/files/66fd1679-7d06-483e-bc51-ba952e75929a.jpg"
+            alt="Background"
+            className="w-full h-full object-cover opacity-20"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/90 to-background"></div>
         </div>
         
         <div className="container max-w-4xl text-center relative z-10 animate-fade-in">
@@ -159,19 +163,30 @@ const Index = () => {
       </section>
 
       <section className="py-20 px-4 bg-card">
-        <div className="container max-w-4xl">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-card-foreground">
-            О фестивале
-          </h2>
-          <div className="prose prose-lg max-w-none text-card-foreground/80 leading-relaxed">
-            <p className="text-xl text-center">
-              Фестиваль создан как место, где можно наконец-то выдохнуть. Если вы в переменах, 
-              в тихом выгорании, после переезда, устали от контроля или ищете честный формат 
-              без эзотерики — здесь вы найдёте поддержку, простоту и ясность.
-            </p>
-            <p className="text-xl text-center mt-6">
-              Ведущие работают глубоко, но бережно.
-            </p>
+        <div className="container max-w-6xl">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="order-2 md:order-1">
+              <h2 className="text-4xl md:text-5xl font-bold mb-8 text-card-foreground">
+                О фестивале
+              </h2>
+              <div className="prose prose-lg max-w-none text-card-foreground/80 leading-relaxed">
+                <p className="text-xl mb-6">
+                  Фестиваль создан как место, где можно наконец-то выдохнуть. Если вы в переменах, 
+                  в тихом выгорании, после переезда, устали от контроля или ищете честный формат 
+                  без эзотерики — здесь вы найдёте поддержку, простоту и ясность.
+                </p>
+                <p className="text-xl">
+                  Ведущие работают глубоко, но бережно.
+                </p>
+              </div>
+            </div>
+            <div className="order-1 md:order-2">
+              <img 
+                src="https://cdn.poehali.dev/projects/b1f1dafe-0f45-4cab-af44-c599e2a5e2f9/files/ab5eb7a3-f0d0-4706-aa7e-2ea0d40be23b.jpg"
+                alt="Атмосфера фестиваля"
+                className="w-full h-auto rounded-3xl shadow-xl"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -228,25 +243,34 @@ const Index = () => {
       </section>
 
       <section className="py-20 px-4">
-        <div className="container max-w-4xl">
+        <div className="container max-w-6xl">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-foreground">
             Как проходит фестиваль
           </h2>
-          <div className="space-y-6">
-            {steps.map((step, index) => (
-              <div 
-                key={index} 
-                className="flex gap-6 items-start animate-fade-in"
-                style={{ animationDelay: `${index * 150}ms` }}
-              >
-                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-accent text-accent-foreground flex items-center justify-center text-xl font-bold shadow-lg">
-                  {index + 1}
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <img 
+                src="https://cdn.poehali.dev/projects/b1f1dafe-0f45-4cab-af44-c599e2a5e2f9/files/88046de1-a572-442e-b922-250a7051ace4.jpg"
+                alt="Процесс игры"
+                className="w-full h-auto rounded-3xl shadow-xl"
+              />
+            </div>
+            <div className="space-y-6">
+              {steps.map((step, index) => (
+                <div 
+                  key={index} 
+                  className="flex gap-6 items-start animate-fade-in"
+                  style={{ animationDelay: `${index * 150}ms` }}
+                >
+                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-accent text-accent-foreground flex items-center justify-center text-xl font-bold shadow-lg">
+                    {index + 1}
+                  </div>
+                  <p className="text-xl text-foreground/80 pt-2 leading-relaxed">
+                    {step}
+                  </p>
                 </div>
-                <p className="text-xl text-foreground/80 pt-2 leading-relaxed">
-                  {step}
-                </p>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>
