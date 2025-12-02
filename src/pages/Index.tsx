@@ -297,7 +297,7 @@ const Index = () => {
               className="w-full h-80 object-cover rounded-3xl shadow-lg hover:shadow-xl transition-shadow duration-300"
             />
             <img 
-              src="https://cdn.poehali.dev/files/0c0608bc-345b-4f38-aa17-dda5fda73321.jpeg"
+              src="https://cdn.poehali.dev/files/277adac5-3008-44f2-bb03-161682f55c66.jpg"
               alt="Ведущая фестиваля"
               className="w-full h-80 object-cover rounded-3xl shadow-lg hover:shadow-xl transition-shadow duration-300"
             />
