@@ -278,6 +278,41 @@ const Index = () => {
       <section className="py-20 px-4 bg-card">
         <div className="container max-w-6xl">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-card-foreground">
+            Атмосфера фестиваля
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
+            <img 
+              src="https://cdn.poehali.dev/files/17d0b7f5-e59a-42b3-8997-e556734e988c.jpeg"
+              alt="Участники фестиваля за игрой"
+              className="w-full h-80 object-cover rounded-3xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+            />
+            <img 
+              src="https://cdn.poehali.dev/files/e4987783-a511-4efa-8c23-e1b0005ad4fc.jpeg"
+              alt="Игровой процесс"
+              className="w-full h-80 object-cover rounded-3xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+            />
+            <img 
+              src="https://cdn.poehali.dev/files/bc7ec2cf-dd91-42cd-9013-0e9da1f26bf2.jpeg"
+              alt="Участники фестиваля"
+              className="w-full h-80 object-cover rounded-3xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+            />
+            <img 
+              src="https://cdn.poehali.dev/files/0c0608bc-345b-4f38-aa17-dda5fda73321.jpeg"
+              alt="Ведущая фестиваля"
+              className="w-full h-80 object-cover rounded-3xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+            />
+            <img 
+              src="https://cdn.poehali.dev/files/ab15438e-ed29-4063-a8a5-4bfb19938bb2.jpeg"
+              alt="Участница фестиваля"
+              className="w-full h-80 object-cover rounded-3xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+            />
+            <img 
+              src="https://cdn.poehali.dev/files/88046de1-a572-442e-b922-250a7051ace4.jpg"
+              alt="Игровой момент"
+              className="w-full h-80 object-cover rounded-3xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+            />
+          </div>
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-card-foreground">
             Билеты
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
