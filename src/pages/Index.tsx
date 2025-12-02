@@ -302,13 +302,13 @@ const Index = () => {
               className="w-full h-80 object-cover rounded-3xl shadow-lg hover:shadow-xl transition-shadow duration-300"
             />
             <img 
-              src="https://cdn.poehali.dev/files/ab15438e-ed29-4063-a8a5-4bfb19938bb2.jpeg"
-              alt="Участница фестиваля"
+              src="https://cdn.poehali.dev/files/e070ee93-bda7-46af-b60f-e53359d5a1d6.jpg"
+              alt="Участники фестиваля за игрой"
               className="w-full h-80 object-cover rounded-3xl shadow-lg hover:shadow-xl transition-shadow duration-300"
             />
             <img 
-              src="https://cdn.poehali.dev/files/88046de1-a572-442e-b922-250a7051ace4.jpg"
-              alt="Игровой момент"
+              src="https://cdn.poehali.dev/files/f5c4661d-ecba-4f8d-a3ff-43d7fb8e481b.jpg"
+              alt="Игровой процесс с мандалой"
               className="w-full h-80 object-cover rounded-3xl shadow-lg hover:shadow-xl transition-shadow duration-300"
             />
           </div>
