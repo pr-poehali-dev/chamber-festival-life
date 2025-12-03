@@ -182,7 +182,7 @@ const Index = () => {
             </div>
             <div className="order-1 md:order-2">
               <img 
-                src="https://cdn.poehali.dev/projects/b1f1dafe-0f45-4cab-af44-c599e2a5e2f9/files/ab5eb7a3-f0d0-4706-aa7e-2ea0d40be23b.jpg"
+                src="https://cdn.poehali.dev/files/277adac5-3008-44f2-bb03-161682f55c66.jpg"
                 alt="Атмосфера фестиваля"
                 className="w-full h-auto rounded-3xl shadow-xl"
               />
